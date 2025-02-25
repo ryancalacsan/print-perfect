@@ -5,7 +5,7 @@ const Header = () => {
     <header className="bg-white shadow-md">
       <nav className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-2xl font-bold text-blue-600">
+          <Link href="/" className="text-2xl font-bold text-primary">
             Print Perfect
           </Link>
 
