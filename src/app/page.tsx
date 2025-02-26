@@ -148,7 +148,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className=" p-4">
             <blockquote className="italic text-2xl pb-4">
-              "Superb product and customer service!""
+              &quot;Superb product and customer service!&quot;
             </blockquote>
             <p className="text-sm">Jo Mulligan</p>
             <p className="text-sm">Atlanta, GA</p>
@@ -156,7 +156,7 @@ export default function Home() {
 
           <div className=" p-4">
             <blockquote className="italic text-2xl pb-4">
-              "Amazing quality and care! I love all your products!"
+              &quot;Amazing quality and care! I love all your products!&quot;
             </blockquote>
             <p className="text-sm">Jo Mulligan</p>
             <p className="text-sm">Atlanta, GA</p>
@@ -164,7 +164,7 @@ export default function Home() {
 
           <div className=" p-4">
             <blockquote className="italic text-2xl pb-4">
-              "Super quick turnaround and great customer service!"
+              &quot;Super quick turnaround and great customer service!&quot;
             </blockquote>
             <p className="text-sm">Jo Mulligan</p>
             <p className="text-sm">Atlanta, GA</p>

@@ -44,7 +44,7 @@ export function parseFAQContent(
       // Get all text nodes after the strong tag
       const $contents = $parent.contents()
       let foundStrong = false
-      let textParts: string[] = []
+      const textParts: string[] = []
 
       $contents.each((_, node) => {
         if (foundStrong) {
