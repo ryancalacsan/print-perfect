@@ -2,7 +2,7 @@
 
 Print Perfect is a modern e-commerce website for a printing company, built with Next.js and utilizing WordPress as a headless CMS. The site showcases various printing services including business cards, postcards, and stationery products.
 
-🌎 Live Demo: [Print Perfect]{https://print-perfect-3tjjfcadc-ryancalacsans-projects.vercel.app/}
+🌎 Live Demo: [Print Perfect](https://print-perfect-3tjjfcadc-ryancalacsans-projects.vercel.app)
 
 ## 🚀 Features
 
@@ -100,6 +100,7 @@ The project is configured for deployment on Vercel:
 
 ## 📁 Project Structure
 
+```
 print-perfect/
 ├── src/
 │ ├── app/ # Next.js app directory
@@ -108,6 +109,7 @@ print-perfect/
 │ └── types/ # TypeScript type definitions
 ├── public/ # Static assets
 └── ...configuration files
+```
 
 ## 📝 License
 
