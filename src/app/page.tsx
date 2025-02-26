@@ -23,7 +23,7 @@ export default function Home() {
               className="block relative h-[400px] md:h-[500px]"
             >
               <Image
-                src="http://print-perfect.local/wp-content/uploads/2025/02/station.jpg"
+                src="https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/station.jpg"
                 alt="Stationery collection"
                 fill
                 className="object-cover rounded-lg"
@@ -43,7 +43,7 @@ export default function Home() {
               className="block relative h-[400px] md:h-[500px]"
             >
               <Image
-                src="http://print-perfect.local/wp-content/uploads/2025/02/post5-scaled.jpg"
+                src="https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/post5-scaled.jpg"
                 alt="Postcards"
                 fill
                 className="object-cover rounded-lg"
@@ -66,7 +66,7 @@ export default function Home() {
               className="block relative h-[300px] md:h-[400px]"
             >
               <Image
-                src="http://print-perfect.local/wp-content/uploads/2025/02/business3.jpg"
+                src="https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/business3.jpg"
                 alt="Business Cards"
                 fill
                 className="object-cover rounded-lg"
@@ -86,7 +86,7 @@ export default function Home() {
               className="block relative h-[300px] md:h-[400px]"
             >
               <Image
-                src="http://print-perfect.local/wp-content/uploads/2025/02/statation2.jpg"
+                src="https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/statation2.jpg"
                 alt="Premium Stationery"
                 fill
                 className="object-cover rounded-lg"
@@ -106,7 +106,7 @@ export default function Home() {
               className="block relative h-[300px] md:h-[400px]"
             >
               <Image
-                src="http://print-perfect.local/wp-content/uploads/2025/02/post2.jpg"
+                src="https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/post2.jpg"
                 alt="Postcard Collection"
                 fill
                 className="object-cover rounded-lg"
@@ -172,7 +172,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="text-center flex flex-col justify-center items-center bg-[url('http://print-perfect.local/wp-content/uploads/2025/02/paper-scaled.jpg')] bg-cover bg-center h-64 md:bg-[url('http://print-perfect.local/wp-content/uploads/2025/02/paper-scaled.jpg')]">
+      <div className="text-center flex flex-col justify-center items-center bg-[url('https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/paper-scaled.jpg')] bg-cover bg-center h-64 md:bg-[url('https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/paper-scaled.jpg')]">
         <h2 className="text-black text-2xl">Order a Sample Pack</h2>
         <p className="text-black p-4">
           Order a sample pack to see our quality for yourself.

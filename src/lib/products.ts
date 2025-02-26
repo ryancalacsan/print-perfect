@@ -14,7 +14,7 @@ export const PRODUCTS: Product[] = [
     name: "Round Business Cards",
     price: "From $19",
     image:
-      "http://print-perfect.local/wp-content/uploads/2025/02/business3.jpg",
+      "https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/business3.jpg",
     link: "/business-cards/",
     category: "Business Cards",
   },
@@ -23,7 +23,7 @@ export const PRODUCTS: Product[] = [
     name: "Business Cards",
     price: "From $49",
     image:
-      "http://print-perfect.local/wp-content/uploads/2025/02/business4.jpg",
+      "https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/business4.jpg",
     link: "/business-cards/",
     category: "Business Cards",
   },
@@ -31,7 +31,8 @@ export const PRODUCTS: Product[] = [
     id: 3,
     name: "Classic Business Cards",
     price: "From $19",
-    image: "http://print-perfect.local/wp-content/uploads/2025/02/business.jpg",
+    image:
+      "https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/business.jpg",
     link: "/business-cards/",
     category: "Business Cards",
   },
@@ -40,7 +41,7 @@ export const PRODUCTS: Product[] = [
     name: "Business Cards",
     price: "From $49",
     image:
-      "http://print-perfect.local/wp-content/uploads/2025/02/business5.jpg",
+      "https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/business5.jpg",
     link: "/business-cards/",
     category: "Business Cards",
   },
@@ -50,7 +51,7 @@ export const PRODUCTS: Product[] = [
     name: "Standard Postcards",
     price: "From $29",
     image:
-      "http://print-perfect.local/wp-content/uploads/2025/02/post7-scaled.jpg",
+      "https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/post7-scaled.jpg",
     link: "/postcards/",
     category: "Postcards",
   },
@@ -58,7 +59,8 @@ export const PRODUCTS: Product[] = [
     id: 6,
     name: "Premium Postcards",
     price: "From $39",
-    image: "http://print-perfect.local/wp-content/uploads/2025/02/post6.jpg",
+    image:
+      "https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/post6.jpg",
     link: "/postcards/",
     category: "Postcards",
   },
@@ -67,7 +69,7 @@ export const PRODUCTS: Product[] = [
     name: "Premium Postcards",
     price: "From $39",
     image:
-      "http://print-perfect.local/wp-content/uploads/2025/02/post5-scaled.jpg",
+      "https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/post5-scaled.jpg",
     link: "/postcards/",
     category: "Postcards",
   },
@@ -75,7 +77,8 @@ export const PRODUCTS: Product[] = [
     id: 8,
     name: "Standard Postcards",
     price: "From $29",
-    image: "http://print-perfect.local/wp-content/uploads/2025/02/post4.jpg",
+    image:
+      "https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/post4.jpg",
     link: "/postcards/",
     category: "Postcards",
   },
@@ -84,7 +87,8 @@ export const PRODUCTS: Product[] = [
     id: 9,
     name: "Letter Sets",
     price: "From $25",
-    image: "http://print-perfect.local/wp-content/uploads/2025/02/station.jpg",
+    image:
+      "https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/station.jpg",
     link: "/stationery/",
     category: "Stationery",
   },
@@ -92,7 +96,8 @@ export const PRODUCTS: Product[] = [
     id: 10,
     name: "Notepads",
     price: "From $15",
-    image: "http://print-perfect.local/wp-content/uploads/2025/02/station4.jpg",
+    image:
+      "https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/station4.jpg",
     link: "/stationery/",
     category: "Stationery",
   },
@@ -100,7 +105,8 @@ export const PRODUCTS: Product[] = [
     id: 11,
     name: "Letter Sets",
     price: "From $25",
-    image: "http://print-perfect.local/wp-content/uploads/2025/02/station6.jpg",
+    image:
+      "https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/station6.jpg",
     link: "/stationery/",
     category: "Stationery",
   },
@@ -108,7 +114,8 @@ export const PRODUCTS: Product[] = [
     id: 12,
     name: "Notepads",
     price: "From $15",
-    image: "http://print-perfect.local/wp-content/uploads/2025/02/station3.jpg",
+    image:
+      "https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/station3.jpg",
     link: "/stationery/",
     category: "Stationery",
   },

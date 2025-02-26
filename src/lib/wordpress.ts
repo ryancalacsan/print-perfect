@@ -3,7 +3,7 @@ import { WordPressPost } from "./types"
 
 export async function getFAQPosts(): Promise<WordPressPost[]> {
   const res = await fetch(
-    "http://print-perfect.local/wp-json/wp/v2/posts?categories=5&orderby=date&order=asc",
+    `${process.env.WP_API_URL}/posts?categories=5&orderby=date&order=asc`,
     {
       next: { revalidate: 3600 }, // Revalidate every hour
     }
