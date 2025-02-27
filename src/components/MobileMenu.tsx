@@ -2,8 +2,9 @@
 
 import { Dialog, Transition } from "@headlessui/react"
 import Link from "next/link"
-import { Fragment } from "react"
+import { Fragment, useState } from "react"
 import { IoClose } from "react-icons/io5"
+import { IoChevronDown } from "react-icons/io5"
 
 interface MobileMenuProps {
   isOpen: boolean
@@ -11,6 +12,8 @@ interface MobileMenuProps {
 }
 
 export default function MobileMenu({ isOpen, setIsOpen }: MobileMenuProps) {
+  const [isBookMenuOpen, setIsBookMenuOpen] = useState(false)
+
   return (
     <Transition.Root show={isOpen} as={Fragment}>
       <Dialog as="div" className="relative z-50" onClose={setIsOpen}>
@@ -53,6 +56,37 @@ export default function MobileMenu({ isOpen, setIsOpen }: MobileMenuProps) {
                       </button>
                     </div>
                     <div className="flex flex-col gap-4 px-4">
+                      <div className="border-b pb-4">
+                        <button
+                          className="flex w-full items-center justify-between text-lg"
+                          onClick={() => setIsBookMenuOpen(!isBookMenuOpen)}
+                        >
+                          <span>Books</span>
+                          <IoChevronDown
+                            className={`h-5 w-5 transition-transform ${
+                              isBookMenuOpen ? "rotate-180" : ""
+                            }`}
+                          />
+                        </button>
+                        {isBookMenuOpen && (
+                          <div className="mt-2 ml-4 flex flex-col gap-2">
+                            <Link
+                              href="/calculator"
+                              className="text-gray-600 hover:text-primary"
+                              onClick={() => setIsOpen(false)}
+                            >
+                              Book Calculator
+                            </Link>
+                            <Link
+                              href="/books"
+                              className="text-gray-600 hover:text-primary"
+                              onClick={() => setIsOpen(false)}
+                            >
+                              All Books
+                            </Link>
+                          </div>
+                        )}
+                      </div>
                       <Link
                         href="/business-cards"
                         className="text-lg hover:text-primary"

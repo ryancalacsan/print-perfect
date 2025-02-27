@@ -4,6 +4,19 @@ import Link from "next/link"
 import { useState } from "react"
 import { RxHamburgerMenu } from "react-icons/rx"
 import MobileMenu from "./MobileMenu"
+import { MainNav } from "./ui/main-nav"
+const bookItems = [
+  {
+    title: "Book Calculator",
+    href: "/calculator",
+    description: "Get instant quotes for your custom book printing needs.",
+  },
+  {
+    title: "Books",
+    href: "/books",
+    description: "Browse our collection of book printing options and services.",
+  },
+]
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -11,7 +24,12 @@ export default function Header() {
   return (
     <header className="bg-white shadow-md">
       <nav className="max-w-7xl mx-auto px-4 py-4">
-        <div className="flex items-center justify-between md:justify-between">
+        <div className="flex items-center justify-between">
+          {/* Logo */}
+          <Link href="/" className="text-2xl font-bold text-primary">
+            Print Perfect
+          </Link>
+
           {/* Mobile Menu Button */}
           <button
             className="md:hidden text-gray-600 hover:text-gray-900"
@@ -20,28 +38,9 @@ export default function Header() {
             <RxHamburgerMenu className="h-6 w-6" />
           </button>
 
-          {/* Logo */}
-          <Link
-            href="/"
-            className="text-2xl font-bold text-primary absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0"
-          >
-            Print Perfect
-          </Link>
-
           {/* Desktop Navigation */}
-          <div className="hidden md:flex gap-6">
-            <Link href="/business-cards" className="hover:text-primary">
-              Business Cards
-            </Link>
-            <Link href="/postcards" className="hover:text-primary">
-              Postcards
-            </Link>
-            <Link href="/stationery" className="hover:text-primary">
-              Stationery
-            </Link>
-            <Link href="/faq" className="hover:text-primary">
-              Help & FAQs
-            </Link>
+          <div className="hidden md:flex items-center gap-6">
+            <MainNav />
           </div>
         </div>
       </nav>

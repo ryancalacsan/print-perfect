@@ -1,14 +1,14 @@
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
+import "./globals.css"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
-import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Print Perfect",
-  description: "Your one-stop shop for all printing needs",
+  description: "Custom book printing made easy",
 }
 
 export default function RootLayout({
@@ -18,9 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} min-h-screen flex flex-col`}>
+      <body className={inter.className}>
         <Header />
-        <main className="flex-grow">{children}</main>
+        <main className="min-h-screen">{children}</main>
         <Footer />
       </body>
     </html>
