@@ -5,18 +5,6 @@ import { useState } from "react"
 import { RxHamburgerMenu } from "react-icons/rx"
 import MobileMenu from "./MobileMenu"
 import { MainNav } from "./ui/main-nav"
-const bookItems = [
-  {
-    title: "Book Calculator",
-    href: "/calculator",
-    description: "Get instant quotes for your custom book printing needs.",
-  },
-  {
-    title: "Books",
-    href: "/books",
-    description: "Browse our collection of book printing options and services.",
-  },
-]
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)

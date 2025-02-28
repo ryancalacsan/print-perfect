@@ -151,7 +151,6 @@ const steps = [
 export default function Calculator() {
   const [currentStep, setCurrentStep] = useState(1)
   const [maxVisitedStep, setMaxVisitedStep] = useState(1)
-  const [quote, setQuote] = useState<Partial<BookQuote>>({})
 
   const form = useForm<BookQuote>({
     resolver: zodResolver(bookQuoteSchema),
@@ -171,7 +170,6 @@ export default function Calculator() {
 
   // Watch for binding type changes to update page count validation
   const bindingType = form.watch("bindingType")
-  const pageCount = form.watch("pageCount")
 
   // Get min/max page counts based on binding type
   const getPageLimits = (type: BookQuote["bindingType"]) => {
@@ -188,7 +186,7 @@ export default function Calculator() {
     } else if (currentCount > maxPages) {
       form.setValue("pageCount", maxPages)
     }
-  }, [bindingType])
+  }, [bindingType, form, maxPages, minPages])
 
   const calculatePrice = (
     quote: BookQuote
@@ -233,8 +231,7 @@ export default function Calculator() {
     }
   }
 
-  const onSubmit = (data: BookQuote) => {
-    setQuote(data)
+  const onSubmit = () => {
     if (currentStep < steps.length) {
       setCurrentStep(currentStep + 1)
       setMaxVisitedStep(Math.max(maxVisitedStep, currentStep + 1))

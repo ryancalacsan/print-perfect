@@ -42,7 +42,7 @@ export default function MobileMenu({ isOpen, setIsOpen }: MobileMenuProps) {
                 leaveTo="-translate-x-full"
               >
                 <Dialog.Panel className="pointer-events-auto w-screen max-w-md">
-                  <div className="flex h-full flex-col overflow-y-scroll bg-white shadow-xl">
+                  <div className="flex h-full flex-col overflow-y-scroll bg-white shadow-xl text-primary">
                     <div className="flex items-center justify-between px-4 py-6">
                       <Dialog.Title className="text-lg font-semibold">
                         Menu
@@ -71,18 +71,18 @@ export default function MobileMenu({ isOpen, setIsOpen }: MobileMenuProps) {
                         {isBookMenuOpen && (
                           <div className="mt-2 ml-4 flex flex-col gap-2">
                             <Link
+                              href="/books"
+                              className="text-gray-600 hover:text-primary"
+                              onClick={() => setIsOpen(false)}
+                            >
+                              Book Information
+                            </Link>
+                            <Link
                               href="/calculator"
                               className="text-gray-600 hover:text-primary"
                               onClick={() => setIsOpen(false)}
                             >
                               Book Calculator
-                            </Link>
-                            <Link
-                              href="/books"
-                              className="text-gray-600 hover:text-primary"
-                              onClick={() => setIsOpen(false)}
-                            >
-                              All Books
                             </Link>
                           </div>
                         )}

@@ -13,12 +13,13 @@ export default function Books() {
             Bring Your Ideas to Life with High-Quality Custom Book Printing
           </h2>
           <p className="mt-4 text-gray-700">
-            At Print Perfect, we understand the value of creating a book that’s
-            as unique as your story. Whether you're an author, a business
-            professional, or an artist, our custom book printing services allow
-            you to transform your vision into a tangible, beautifully crafted
-            product. From hardcover to paperback, black-and-white to full-color,
-            we’ve got the tools and expertise to meet your needs.
+            At Print Perfect, we understand the value of creating a book
+            that&apos;s as unique as your story. Whether you&apos;re an author,
+            a business professional, or an artist, our custom book printing
+            services allow you to transform your vision into a tangible,
+            beautifully crafted product. From hardcover to paperback,
+            black-and-white to full-color, we&apos;ve got the tools and
+            expertise to meet your needs.
           </p>
         </section>
         <div className="text-center flex flex-col justify-center items-center bg-[url('https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/paper-scaled.jpg')] bg-cover bg-center h-64 md:bg-[url('https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/paper-scaled.jpg')]">
@@ -41,8 +42,8 @@ export default function Books() {
             <li>
               <strong>Tailored to Your Needs:</strong> We offer a wide variety
               of customizations, including size, paper type, binding, cover
-              finishes, and more. No matter your project's requirements, we’ll
-              make sure your book looks exactly how you envision it.
+              finishes, and more. No matter your project&apos;s requirements,
+              we&apos;ll make sure your book looks exactly how you envision it.
             </li>
             <li>
               <strong>High-Quality Materials:</strong> We use premium materials
@@ -63,9 +64,9 @@ export default function Books() {
             </li>
             <li>
               <strong>Expert Support:</strong> Our dedicated team is here to
-              guide you through every step of the printing process. We’ll help
-              with file preparation, design tips, and any questions you might
-              have along the way.
+              guide you through every step of the printing process. We&apos;ll
+              help with file preparation, design tips, and any questions you
+              might have along the way.
             </li>
           </ul>
         </section>
@@ -81,8 +82,8 @@ export default function Books() {
           <ul className="mt-4 text-gray-700 list-disc pl-5">
             <li>
               <strong>Book Size & Layout:</strong> Choose from standard sizes or
-              go with a custom size that fits your vision. We’ll ensure your
-              layout is perfectly formatted for printing.
+              go with a custom size that fits your vision. We&apos;ll ensure
+              your layout is perfectly formatted for printing.
             </li>
             <li>
               <strong>Cover Styles:</strong> Select from a range of cover
@@ -97,8 +98,8 @@ export default function Books() {
             <li>
               <strong>Paper Types:</strong> Choose from high-quality,
               eco-friendly paper options, including matte, glossy, uncoated, and
-              textured finishes. The right paper can elevate your book's design
-              and presentation.
+              textured finishes. The right paper can elevate your book&apos;s
+              design and presentation.
             </li>
             <li>
               <strong>Printing Formats:</strong> Whether you need
@@ -117,9 +118,9 @@ export default function Books() {
             <li>
               <strong>Self-Published Authors:</strong> Turn your manuscript into
               a professional, polished book with our custom printing services.
-              Whether you're printing a small batch for family and friends or
-              preparing for a large launch, we’ll support you through the entire
-              process.
+              Whether you&apos;re printing a small batch for family and friends
+              or preparing for a large launch, we&apos;ll support you through
+              the entire process.
             </li>
             <li>
               <strong>Corporate & Marketing Materials:</strong> Custom books can
@@ -150,18 +151,19 @@ export default function Books() {
             </li>
             <li>
               <strong>Choose Your Options:</strong> Select your customizations
-              for size, paper, binding, and cover finish. If you’re not sure,
-              we’re happy to recommend the best options based on your project.
+              for size, paper, binding, and cover finish. If you&apos;re not
+              sure, we&apos;re happy to recommend the best options based on your
+              project.
             </li>
             <li>
-              <strong>Proofing:</strong> We’ll provide a digital proof for your
-              approval before printing to ensure everything looks perfect. Any
-              adjustments needed? We’ll make them right away.
+              <strong>Proofing:</strong> We&apos;ll provide a digital proof for
+              your approval before printing to ensure everything looks perfect.
+              Any adjustments needed? We&apos;ll make them right away.
             </li>
             <li>
               <strong>Printing & Delivery:</strong> Once you approve the proof,
-              we’ll print your books and deliver them directly to you. You can
-              count on a fast, reliable turnaround.
+              we&apos;ll print your books and deliver them directly to you. You
+              can count on a fast, reliable turnaround.
             </li>
           </ol>
         </section>
@@ -171,13 +173,13 @@ export default function Books() {
           <p className="mt-4 text-gray-700">
             Ready to bring your book to life? Request a free quote today, or
             contact our team for personalized advice on your custom book
-            printing project. Let’s make your vision a reality!
+            printing project. Let&apos;s make your vision a reality!
           </p>
         </section>
       </div>
       <div className="flex justify-center">
         <Link href="/books/calculator">
-          <Button className="bg-primary text-white hover:bg-accent/90">
+          <Button className="bg-primary text-white hover:bg-accent/90 hover:text-primary">
             Get an instant quote
           </Button>
         </Link>
