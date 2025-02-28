@@ -26,6 +26,7 @@ export default function Home() {
                 src="https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/station.jpg"
                 alt="Stationery collection"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw"
                 className="object-cover rounded-lg"
               />
               <div className="absolute w-full bottom-6 flex justify-center md:justify-end md:right-6">
@@ -46,6 +47,7 @@ export default function Home() {
                 src="https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/post5-scaled.jpg"
                 alt="Postcards"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 25vw"
                 className="object-cover rounded-lg"
               />
               <div className="absolute bottom-6 w-full flex justify-center">
@@ -69,6 +71,7 @@ export default function Home() {
                 src="https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/business3.jpg"
                 alt="Business Cards"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw"
                 className="object-cover rounded-lg"
               />
               <div className="absolute bottom-6 w-full flex justify-center">
@@ -89,6 +92,7 @@ export default function Home() {
                 src="https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/statation2.jpg"
                 alt="Premium Stationery"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw"
                 className="object-cover rounded-lg"
               />
               <div className="absolute bottom-6 w-full flex justify-center">
@@ -109,6 +113,7 @@ export default function Home() {
                 src="https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads/2025/02/post2.jpg"
                 alt="Postcard Collection"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw"
                 className="object-cover rounded-lg"
               />
               <div className="absolute bottom-6 w-full flex justify-center">
