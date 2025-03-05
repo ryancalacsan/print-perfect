@@ -26,7 +26,7 @@ export default function Home() {
               className="block relative h-[400px] md:h-[500px]"
             >
               <Image
-                src={process.env.WP_IMAGE_URL + "/2025/02/station.jpg"}
+                src={baseImgUrl + "/2025/02/station.jpg"}
                 alt="Stationery collection"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw"
