@@ -9,6 +9,9 @@ import {
 } from "react-icons/fa"
 import ProductShowcase from "@/components/ProductShowcase"
 
+const baseImgUrl =
+  "https://wordpress-1420028-5294304.cloudwaysapps.com/wp-content/uploads"
+
 export default function Home() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
@@ -44,7 +47,7 @@ export default function Home() {
               className="block relative h-[400px] md:h-[500px]"
             >
               <Image
-                src={process.env.WP_IMAGE_URL + "/2025/02/post5-scaled.jpg"}
+                src={baseImgUrl + "/2025/02/post5-scaled.jpg"}
                 alt="Postcards"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 25vw"
@@ -68,7 +71,7 @@ export default function Home() {
               className="block relative h-[300px] md:h-[400px]"
             >
               <Image
-                src={process.env.WP_IMAGE_URL + "/2025/02/business3.jpg"}
+                src={baseImgUrl + "/2025/02/business3.jpg"}
                 alt="Business Cards"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw"
@@ -89,7 +92,7 @@ export default function Home() {
               className="block relative h-[300px] md:h-[400px]"
             >
               <Image
-                src={process.env.WP_IMAGE_URL + "/2025/02/statation2.jpg"}
+                src={baseImgUrl + "/2025/02/statation2.jpg"}
                 alt="Premium Stationery"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw"
@@ -110,7 +113,7 @@ export default function Home() {
               className="block relative h-[300px] md:h-[400px]"
             >
               <Image
-                src={process.env.WP_IMAGE_URL + "/2025/02/post2.jpg"}
+                src={baseImgUrl + "/2025/02/post2.jpg"}
                 alt="Postcard Collection"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw"
@@ -180,7 +183,7 @@ export default function Home() {
       <div
         className="text-center flex flex-col justify-center items-center bg-cover bg-center h-64"
         style={{
-          backgroundImage: `url(${process.env.WP_IMAGE_URL}/2025/02/paper-scaled.jpg)`,
+          backgroundImage: `url(${baseImgUrl}/2025/02/paper-scaled.jpg)`,
         }}
       >
         <h2 className="text-black text-2xl">Order a Sample Pack</h2>
